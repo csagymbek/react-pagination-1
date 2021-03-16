@@ -1,0 +1,59 @@
+.pageNumbers {
+    list-style: none;
+    display: flex;
+}
+
+.pageNumbers > li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: whitesmoke;
+    color: #333;
+    border-radius: 5px;
+}
+
+.pageNumbers  li  button { 
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.pageNumbers  li  button:hover {
+    background-color: whitesmoke;
+    color: #333 ;
+    border-radius: 5px;
+}
+
+.pageNumbers  li  button:focus {
+    outline: none;
+}
+
+.listItems {
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+}
+
+.loadMore {
+    padding: 1rem;
+    width: 150px;
+    background: ;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.loadMore:hover {
+    background: lightgray;
+    color: #333;
+}
+
+.loadMore:focus {
+    outline: none;
+}
